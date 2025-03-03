@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>Assignment 1</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- three.js importmap-->
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://ga.jspm.io/npm:three@0.172.0/build/three.module.js",
+            "OrbitControls": "https://ga.jspm.io/npm:three@0.172.0/examples/jsm/controls/OrbitControls.js",
+            "lil-gui": "https://ga.jspm.io/npm:lil-gui@0.20.0/dist/lil-gui.esm.js"
+          }
+        }
+        </script>
+    <!-- three.js scene -->
+     <script src="script.js" type="module"></script>
+</head>
+<body>
+  <div class="flexbox">
+    <!-- ESSAY -->
+    <div class="essay">
+     <h2>1. Flatness</h2>
+      <p><span class="clickable" id="part-one">From inside the cave...</span></p>
+
+      <p>A shadow is cast onto the cave wall by an unseen source. The prisoners, forced to take shelter in one place, can only see the shadows projected onto the cave wall in front of them. These shadows are their only understanding of what is happening outside their hiding place in the cave. There is only one shadow cast onto the wall—a tall and intimidating figure that appears elongated. <span class="clickable" id="first-change">The shadow begins to move, swaying back and forth on the wall</span> as if it were a living creature with a will of its own. This stuns the prisoners, as they believe this is a spirit or deity that controls the world around them. As time goes by, <span class="clickable" id="second-change">the shadow appears to take different forms, growing larger and smaller.</span> This causes the prisoners to panic as they begin to question their own sanity. They struggle to make sense of what could possibly be happening, unaware of what is actually going on outside the cave. To people like them, this figure is more than just a shadow—it is a being with power and purpose beyond their understanding. </p>
+
+      <p>To me, Flatness refers to having a limited perspective of the world, where one only sees one side of a situation and does not flip the coin to see the other. The prisoners in the cave embody this idea because they only see one side of the situation—just the shadow being cast. They are unaware of the light casting the shadow or even the object creating it. Their understanding of the world around them is flawed; they are trapped in an illusion, unaware of the third dimension that holds them back from seeing the full picture. Like how the prisoners shape their false view of the shadow, people outside the cave form misconceptions based on a limited perspective. The idea of Flatness takes away one’s ability to question things or seek deeper understanding. By breaking free from this “Flatness,” individuals can begin to grasp the unseen forces that shape their way of thinking and develop a more complete understanding of reality. </p>
+
+     <h2>2. Seeing Double</h2>
+      <p><span class="clickable" id="part-two">From outside the cave</span></p>
+
+      <p>Outside the cave, the truth is laid bare. A three-dimensional statue stands before a roaring fire. The light from the fire projects the image the prisoners see onto the cave wall, creating the illusion of a being outside the cave. As the fire grows taller, the shape begins to distort. <span class="clickable" id="third-change">The illusion deepens when someone moves the fire</span>, making it seem as though the shadowed figure is moving with free will. <span class="clickable" id="fourth-change">If the statue moves closer to the fire,</span> the shadow grows larger, giving the impression that it is approaching the prisoners. The opposite happens when the statue moves away—the shadow shrinks, making it appear as if the figure is retreating. The people outside the cave, who are altering the position of the light, understand the simple interaction between the object and the fire. However, the prisoners inside the cave experience these changes as the actions of a higher being looming over them. Something as small as shifting the fire slightly outside the cave is perceived as a mysterious and daunting event inside, reinforcing their illusions and shaping their false reality.</p>
+
+      <p>To me, Seeing Double means understanding how different perspectives can shape a more complete perception of a situation—whether it’s an argument or an experience like this. Those outside the cave embody this idea because they can see both the statue and its shadow. They recognize that the shadow is merely a projection of something harmless and ordinary. This dual awareness allows them to understand the connection between cause and effect. The fire, the statue, and their relative positions determine what is projected and seen inside the cave. When the fire is moved, those outside perceive it as a simple shift in light, but the prisoners inside see a looming figure moving and interpret it as a supernatural event. The outside world reveals the connection between perception and truth, while the prisoners inside the cave remain trapped in an incomplete understanding of reality. This contrast illustrates the difference between Flatness and Seeing Double. Only by stepping outside the cave and viewing from another perspective can one truly begin to see reality as it is, rather than clinging to a single viewpoint and forcing it to define their world.</p>
+
+    </div>
+
+    <!-- SCENE -->
+    <div class="scene">
+    <canvas class="webgl"></canvas>
+    </div>
+
+  </div>
+</body>
